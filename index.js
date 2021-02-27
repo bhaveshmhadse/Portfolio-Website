@@ -1,7 +1,9 @@
 function sleep(time) {
   return new Promise(resolve => setTimeout(resolve, time));
 }
-alert("Please Zoom Out before seeing,for best experience!");
+
+alert("Please Zoom-Out before seeing,for best experience!");
+
 async function sayMyName() {
   let description = ["I'm", 'Bhavesh', ',', 'a', 'developer'];
   let newName = '';
@@ -20,7 +22,7 @@ async function sayMyName() {
 async function profile() {
   document.getElementById('profile').src = 'profile.jpg';
   document.getElementById('profile').style =
-    'max-height: 800px; min-height: 400px; min-width: 250px; max-width: 600px; margin-left: 35%; margin-right: 40%; margin-top: 5%; margin-bottom: 0%;';
+    'max-height: 600px; min-height: 350px; min-width: 250px; max-width: 300px; margin-left: 35%; margin-right: 40%; margin-top: 5%; margin-bottom: 0%;';
 }
 
 async function description() {
@@ -62,7 +64,7 @@ async function getInTouch() {
 async function socialMedia() {
   document.getElementById('1').src = 'instagram.png';
   document.getElementById('1').style =
-    'min-height: 50px; min-width:50px; height: 3%; width: 3%; border-radius: 2%; margin-left: 22%; margin-top: 0%;';
+    'min-height: 50px; min-width:50px; height: 3%; width: 3%; border-radius: 2%; margin-left: 15%; margin-top: 0%;';
 
   document.getElementById('2').src = 'github.png';
   document.getElementById('2').style =
