@@ -20,7 +20,7 @@ async function sayMyName() {
 async function profile() {
   document.getElementById('profile').src = 'profile.jpg';
   document.getElementById('profile').style =
-    ' height: 40%; width: 40%; margin-left: 30%; margin-top: 5%; margin-bottom: 0%;';
+    'max-height: 600px; min-height: 300px; min-width: 150px; max-width: 300px; margin-left: 35%; margin-right: 40%; margin-top: 5%; margin-bottom: 0%;';
 }
 
 async function description() {
@@ -62,23 +62,23 @@ async function getInTouch() {
 async function socialMedia() {
   document.getElementById('1').src = 'instagram.png';
   document.getElementById('1').style =
-    'height: 6%; width: 6%; border-radius: 4%; margin-left: 25%; margin-top: 0%;';
+    'min-height: 50px; min-width:50px; height: 3%; width: 3%; border-radius: 2%; margin-left: 25%; margin-top: 0%;';
 
   document.getElementById('2').src = 'github.png';
   document.getElementById('2').style =
-    'background-color: white;height: 6%; width: 6%; border-radius: 0%; margin-left: 0.5%; margin-right: 1%; margin-top: 0%';
+    'min-height: 50px; min-width: 50px; background-color: white;height: 3%; width: 3%; border-radius: 0%; margin-left: 0.5%; margin-right: 1%; margin-top: 0%';
 
   document.getElementById('3').src = 'whatsapp.png';
   document.getElementById('3').style =
-    'height: 6%; width: 6%; border-radius: 4%; margin-right: 1%; margin-top: 0%';
+    'min-height: 50px; min-width: 50px; height: 3%; width: 3%; border-radius: 2%; margin-right: 1%; margin-top: 0%';
 
   document.getElementById('4').src = 'facebook.png';
   document.getElementById('4').style =
-    'height: 6%; width: 6%; border-radius: 4%; margin-right: 1%; margin-top: 0%';
+    'min-height: 50px; min-width: 50px; height: 3%; width: 3%; border-radius: 2%; margin-right: 1%; margin-top: 0%';
 
   document.getElementById('5').src = 'twitter.png';
   document.getElementById('5').style =
-    'height: 6%; width: 6%; border-radius: 4%; margin-right: 1%; margin-top: 0%';
+    'min-height: 50px; min-width: 50px; height: 3%; width: 3%; border-radius: 2%; margin-right: 1%; margin-top: 0%';
 }
 
 let butn1 = (document.getElementById('about').onmouseover = changecolourobout);
@@ -95,7 +95,4 @@ window.onload = function () {
   setTimeout(socialMedia, 15500);
 };
 
-// https://www.instagram.com/invites/contact/?i=b4l3j9tyq1vk&utm_content=3b9rgg4
-// https://github.com/bhaveshmhadse
-// https://wa.me/9136298868
-// https://touch.facebook.com/bhavesh.mhadse.7
+
