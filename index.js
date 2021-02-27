@@ -1,7 +1,7 @@
 function sleep(time) {
   return new Promise(resolve => setTimeout(resolve, time));
 }
-
+alert("Please Zoom Out before seeing,for best experience!");
 async function sayMyName() {
   let description = ["I'm", 'Bhavesh', ',', 'a', 'developer'];
   let newName = '';
