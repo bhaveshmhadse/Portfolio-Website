@@ -1,0 +1,19 @@
+logo {
+  height: 100px;
+  width: 100px;
+  background: rgb(214, 28, 28);
+}
+divname {
+  font-size: 200px;
+  color: greenyellow;
+}
+
+nav1 {
+  height: 100px;
+  background-color: grey;
+  border-radius: 20px;
+}
+
+.button1 {
+  background-color: blue;
+}
