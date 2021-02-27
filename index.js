@@ -20,7 +20,7 @@ async function sayMyName() {
 async function profile() {
   document.getElementById('profile').src = 'profile.jpg';
   document.getElementById('profile').style =
-    ' height: 20%; width: 20%; margin-left: 30%; margin-top: 5%; margin-bottom: 0%;';
+    ' height: 40%; width: 40%; margin-left: 30%; margin-top: 5%; margin-bottom: 0%;';
 }
 
 async function description() {
