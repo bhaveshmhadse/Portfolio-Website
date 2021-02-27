@@ -3,7 +3,7 @@ function sleep(time) {
 }
 
 async function sayMyName() {
-  let description = ["I'm", 'Bhavesh', ',', 'a', 'developer'];
+  let description = ["I'am", 'Bhavesh', ',', 'a', 'developer'];
   let newName = '';
   for (let words of description) {
     if (words === ',') {
@@ -20,7 +20,7 @@ async function sayMyName() {
 async function profile() {
   document.getElementById('profile').src = 'profile.jpg';
   document.getElementById('profile').style =
-    'max-height: 600px; min-height: 400px; min-width: 300px; max-width: 300px; margin-left: 35%; margin-right: 40%; margin-top: 5%; margin-bottom: 0%;';
+    'max-height: 800px; min-height: 600px; min-width: 400px; max-width: 600px; margin-left: 35%; margin-right: 40%; margin-top: 5%; margin-bottom: 0%;';
 }
 
 async function description() {
