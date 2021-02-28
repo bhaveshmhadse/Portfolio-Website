@@ -1,19 +1,227 @@
-logo {
-  height: 100px;
-  width: 100px;
-  background: rgb(214, 28, 28);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
-divname {
-  font-size: 200px;
+html {
+  background: url(bg1.jpg) center fixed;
+  background-size: cover;
+}
+.max-width {
+  max-width: 1300px;
+  padding: 0 90px;
+  margin: auto;
+}
+.navbar img {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  height: 60px;
+  width: 60px;
+}
+.profile {
+  visibility: hidden;
+  position: sticky;
+  height: 450px;
+  width: 300px;
+  margin-top: 3%;
+  left: 4%;
+  text-align: center;
+  margin-bottom: 0%;
+}
+/* .picture img {
+  position: fixed;
+  top: 20%;
+  left: 35%;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+} */
+.navbar {
+  image-resolution: 45%;
+  position: relative;
+  width: 100%;
+  padding: 15px 0;
+  background: crimson;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.name {
+  position: sticky;
+  font-size: 380%;
+  font-family: 'Tw Cen MT';
   color: greenyellow;
+  left: 30%;
+  margin-top: -24%;
+  margin-bottom: 1%;
+  margin-left: 34%;
+}
+.description {
+  font-size: 125%;
+  font-family: 'Tw Cen MT';
+  margin-top: 0%;
+  margin-bottom: 1%;
+  margin-left: 34%;
+  color: white;
+}
+.non .rest {
+  /* background-image: url(); */
+  /* display: flex; */
+  visibility: hidden;
+  height: 50px;
+  width: 50px;
+  border-radius: 0%;
+  margin-left: 0.3%;
+  margin-right: 0.3%;
+  margin-top: 0%;
+}
+.non .insta {
+  visibility: hidden;
+  color: transparent;
+  min-height: 50px;
+  min-width: 50px;
+  height: 3%;
+  width: 3%;
+  border-radius: 2%;
+  border-color: transparent;
+  margin-left: 33.5%;
+  margin-top: 0%;
+}
+.info {
+  color: gold;
+  font-size: 145%;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 34%;
+  margin-top: 4%;
+  margin-bottom: 0%;
+}
+.navbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 0%;
+}
+.navbar .logo a {
+  color: #fff;
+  font-size: 35px;
+  font-family: 'Tw Cen MT';
+  font-weight: 600;
+  margin-left: 0px;
+}
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
 }
 
-nav1 {
-  height: 100px;
-  background-color: grey;
-  border-radius: 20px;
+.navbar .menu li a {
+  /* font-size: 500px; */
+  color: #fff;
+  /* font-family: "Fira Code"; */
+  font-size: 22px;
+  font-weight: 500;
+  margin-left: 25px;
+  margin-top: 0px;
+  /* margin-right: 100; */
 }
 
-.button1 {
-  background-color: blue;
+@media (max-width: 600px) {
+  .max-width {
+    padding: 0 50px;
+  }
+  .navbar {
+    background-color: crimson;
+    height: 60px;
+    width: 100%;
+  }
+  .navbar .menu {
+    position: fixed;
+    /* font-size: 12px; */
+    width: 100%;
+    height: 80vh;
+    left: 55%;
+    top: -2.5%;
+    margin: 18px;
+  }
+  .navbar .menu li {
+    display: block;
+  }
+  .navbar img {
+    position: fixed;
+    top: 1.2%;
+    left: 2%;
+    height: 50px;
+    width: 50px;
+  }
+  .navbar .logo a {
+    position: fixed;
+    color: #fff;
+    font-size: 25px;
+    top: 3%;
+    left: 17%;
+    font-weight: 600;
+    margin-left: 0px;
+  }
+  .navbar .menu li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 5px;
+    margin-top: 0%;
+  }
+  .profile {
+    visibility: hidden;
+    position: sticky;
+    height: 260px;
+    width: 170px;
+    margin-top: 3%;
+    left: 18%;
+    text-align: center;
+    margin-bottom: 0%;
+  }
+  .name {
+    position: sticky;
+    font-size: 250%;
+    font-family: 'Tw Cen MT';
+    color: greenyellow;
+    margin-top: 0%;
+    margin-bottom: 1%;
+    margin-left: 9%;
+  }
+  .description {
+    font-size: 65%;
+    font-family: 'Tw Cen MT';
+    margin-top: 0%;
+    margin-bottom: 1%;
+    margin-left: 9%;
+    color: white;
+  }
+  .info {
+    color: gold;
+    font-size: 95%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 9%;
+    margin-top: 4%;
+    margin-bottom: 0%;
+  }
+  .non .rest {
+
+    visibility: hidden;
+    height: 30px;
+    width: 30px;
+    border-radius: 0%;
+    margin-left: 0.3%;
+    margin-right: 0.3%;
+    margin-top: 0%;
+  }
+  .non .insta {
+    visibility: hidden;
+    margin-left: 8%;
+    margin-top: 0%;
+    min-height: 30px;
+    min-width: 30px;
+    height: 0.3%;
+    width: 0.3%;
+    border-radius: 2%;
+    border-color: transparent;
+  }
 }
