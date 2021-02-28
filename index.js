@@ -64,7 +64,7 @@ async function getInTouch() {
 async function socialMedia() {
   document.getElementById('1').src = 'instagram.png';
   document.getElementById('1').style =
-    'min-height: 50px; min-width:50px; height: 3%; width: 3%; border-radius: 2%; margin-left: 15%; margin-top: 0%;';
+    'min-height: 50px; min-width:50px; height: 3%; width: 3%; border-radius: 2%; margin-left: 25%; margin-top: 0%;';
 
   document.getElementById('2').src = 'github.png';
   document.getElementById('2').style =
@@ -78,9 +78,9 @@ async function socialMedia() {
   document.getElementById('4').style =
     'min-height: 50px; min-width: 50px; height: 3%; width: 3%; border-radius: 2%; margin-right: 1%; margin-top: 0%';
 
-  document.getElementById('5').src = 'twitter.png';
-  document.getElementById('5').style =
-    'min-height: 50px; min-width: 50px; height: 3%; width: 3%; border-radius: 2%; margin-right: 1%; margin-top: 0%';
+  //document.getElementById('5').src = 'twitter.png';
+  //document.getElementById('5').style =
+   // 'min-height: 50px; min-width: 50px; height: 3%; width: 3%; border-radius: 2%; margin-right: 1%; margin-top: 0%';
 }
 
 let butn1 = (document.getElementById('about').onmouseover = changecolourobout);
