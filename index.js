@@ -2,27 +2,22 @@ function sleep(time) {
   return new Promise(resolve => setTimeout(resolve, time));
 }
 
-alert("Please Zoom-Out before seeing,for best experience!");
+async function profile() {
+  document.getElementById('profile').src = 'profile.jpg';
+  document.getElementById('profile').style = 'visibility:visible;';
+}
 
 async function sayMyName() {
   let description = ["I'm", 'Bhavesh', ',', 'a', 'developer'];
   let newName = '';
   for (let words of description) {
     if (words === ',') {
-      await sleep(2000);
+      await sleep(1500);
     }
     newName += words + ' ';
-    await sleep(500);
-    document.getElementById('Name').innerText = newName;
-    document.getElementById('Name').style =
-      "margin-bottom: 0%; margin-left: 25%; margin-top: 5%; font-size: 380%; font-family: 'Tw Cen MT';color: greenyellow;";
+    await sleep(700);
+    document.getElementById('name').innerText = newName;
   }
-}
-
-async function profile() {
-  document.getElementById('profile').src = 'profile.jpg';
-  document.getElementById('profile').style =
-    'max-height: 600px; min-height: 350px; min-width: 250px; max-width: 300px; margin-left: 35%; margin-right: 40%; margin-top: 5%; margin-bottom: 0%;';
 }
 
 async function description() {
@@ -35,66 +30,36 @@ async function description() {
     newName += words;
     await sleep(1000);
     document.getElementById('description').innerText = newName;
-    document.getElementById('description').style =
-      "font-size: 125%; font-family: 'Tw Cen MT';color: greenyellow; margin-left: 25%; margin-top: 0%; color: white;";
   }
-}
-async function changecolourobout() {
-  document.getElementById('about').innerText = 'About';
-  document.getElementById('about').style =
-    'font-size: 22px; font-family: Dank Mono; color: orange;';
-}
-async function changecolourhome() {
-  document.getElementById('home').innerText = 'Home';
-  document.getElementById('home').style =
-    'font-size: 22px; font-family: Dank Mono; color: orange; margin-left: 60%; margin-right: 2%; margin-top: 2px;';
-}
-async function changecolourproject() {
-  document.getElementById('project').innerText = 'Project';
-  document.getElementById('project').style =
-    'font-size: 22px; font-family: Dank Mono; color: orange; margin-right: 2%;';
 }
 
 async function getInTouch() {
   document.getElementById('info').innerText = 'Get In Touch';
-  document.getElementById('info').style =
-    "color: gold; font-size: 145%; font-family: 'Times New Roman', Times, serif; margin-left: 25%; margin-top: 0%; margin-bottom: 0%;";
 }
 
 async function socialMedia() {
   document.getElementById('1').src = 'instagram.png';
-  document.getElementById('1').style =
-    'min-height: 50px; min-width:50px; height: 3%; width: 3%; border-radius: 2%; margin-left: 20%; margin-top: 0%;';
+  document.getElementById('1').style = 'visibility: visible;';
 
   document.getElementById('2').src = 'github.png';
-  document.getElementById('2').style =
-    'min-height: 50px; min-width: 50px; background-color: white;height: 3%; width: 3%; border-radius: 0%; margin-left: 0.5%; margin-right: 1%; margin-top: 0%';
+  document.getElementById('2').style = 'visibility: visible;';
 
   document.getElementById('3').src = 'whatsapp.png';
-  document.getElementById('3').style =
-    'min-height: 50px; min-width: 50px; height: 3%; width: 3%; border-radius: 2%; margin-right: 1%; margin-top: 0%';
+  document.getElementById('3').style = 'visibility: visible;';
 
   document.getElementById('4').src = 'facebook.png';
-  document.getElementById('4').style =
-    'min-height: 50px; min-width: 50px; height: 3%; width: 3%; border-radius: 2%; margin-right: 1%; margin-top: 0%';
+  document.getElementById('4').style = 'visibility: visible;';
 
-  //document.getElementById('5').src = 'twitter.png';
-  //document.getElementById('5').style =
-   // 'min-height: 50px; min-width: 50px; height: 3%; width: 3%; border-radius: 2%; margin-right: 1%; margin-top: 0%';
+  document.getElementById('5').src = 'twitter.png';
+  document.getElementById('5').style = 'visibility: visible;';
 }
 
-let butn1 = (document.getElementById('about').onmouseover = changecolourobout);
-let butn2 = (document.getElementById(
-  'project'
-).onmouseover = changecolourproject);
-let butn3 = (document.getElementById('home').onmouseover = changecolourhome);
-
 window.onload = function () {
-  setTimeout(profile, 900);
-  setTimeout(sayMyName, 3000);
-  setTimeout(description, 9000);
-  setTimeout(getInTouch, 15000);
-  setTimeout(socialMedia, 15500);
+  setTimeout(profile, 1000);
+  setTimeout(sayMyName, 2000);
+  setTimeout(description, 7000);
+  setTimeout(getInTouch, 13000);
+  setTimeout(socialMedia, 14300);
 };
 
 
