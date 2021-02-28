@@ -43,7 +43,7 @@ html {
   position: relative;
   width: 100%;
   padding: 15px 0;
-  background: crimson;
+  background: #1f3042 ;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .name {
@@ -129,7 +129,7 @@ html {
     padding: 0 50px;
   }
   .navbar {
-    background-color: crimson;
+    background-color: #1f3042;
     height: 60px;
     width: 100%;
   }
