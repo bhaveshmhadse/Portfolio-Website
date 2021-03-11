@@ -11,9 +11,14 @@ img {
 }
 button {
   outline: none;
+  cursor: pointer;
 }
 body {
   margin: 0;
+}
+
+a {
+  cursor: pointer;
 }
 
 .header {
@@ -125,6 +130,7 @@ body {
   height: auto;
 }
 .section1 img {
+  cursor: grab;
   border-radius: 10rem;
   width: 50%;
   padding: 1rem 1rem;
