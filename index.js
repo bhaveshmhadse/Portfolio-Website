@@ -31,7 +31,8 @@ function changeTheme() {
     document.getElementById('div').style = 'background-color:greenyellow;';
     document.getElementById('b').style =
       'color: white;background-color: black;';
-    document.getElementById('navbar').style = 'background-color: rgb(16, 16, 85);';
+    document.getElementById('navbar').style =
+      'background-color: rgb(29, 31, 31)';
     document.getElementById('divs').style =
       'color: white; background-color:black';
     document.getElementById('app').style = 'color: greenyellow; ';
