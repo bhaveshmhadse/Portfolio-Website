@@ -1,6 +1,4 @@
-function s() {
-  document.getElementById('section3').scrollIntoView();
-}
+
 let i = 0;
 
 function sayMyName() {
